@@ -28,13 +28,8 @@
     color: black;
 }
 
-.header__logout {
-    margin-top: 10px;
-}
-
-.header__logout a{
+.logout-button{
     background: #C0C0C0;
-    padding: 10px 30px;
-    text-decoration: none;
-    color: black;
+    padding: 11px 30px;
+    border: none;
 }

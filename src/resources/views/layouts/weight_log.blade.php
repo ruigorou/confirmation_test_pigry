@@ -19,9 +19,13 @@
             <div class="header__target-weight">
                 <a href=""><span><i class="fa-solid fa-gear"></i></span>目標体重設定</a>
             </div>
-            <div class="header__logout">
-                <a href="/login"><span><i class="fa-solid fa-door-open"></i>
-</span>ログアウト</a>
+            <div class="header__logout"> 
+                <form method="POST" action="/logout">
+                    @csrf 
+                    <button class="logout-button">
+                        <span><i class="fa-solid fa-door-open"></i></span>ログアウト 
+                    </button>
+                </form>
             </div>
         </div>
     </header>
