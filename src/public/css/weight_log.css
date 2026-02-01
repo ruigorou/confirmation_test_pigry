@@ -1,0 +1,40 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    border-bottom: 1px solid #C0C0C0;
+    box-shadow: 0 3px 5px rgba(192, 192, 192, 0.3);
+}
+
+.header__title {
+    margin: 0;
+    color: #ffadff;
+    font-family: serif;
+}
+
+.header__contents {
+    display: flex;
+    gap: 20px;
+}
+
+.header__target-weight {
+    margin-top: 10px;
+}
+
+.header__target-weight a{
+    background: #C0C0C0;
+    padding: 10px 30px;
+    text-decoration: none;
+    color: black;
+}
+
+.header__logout {
+    margin-top: 10px;
+}
+
+.header__logout a{
+    background: #C0C0C0;
+    padding: 10px 30px;
+    text-decoration: none;
+    color: black;
+}

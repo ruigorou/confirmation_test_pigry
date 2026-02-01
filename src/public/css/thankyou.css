@@ -1,0 +1,42 @@
+.content-group {
+    max-width: 800px;
+    width: 100%;
+    height: 200px;
+    margin: 300px auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.content-group__title {
+    color: #996600;
+    text-align: center;
+    
+}
+
+.content-group__link {
+    text-align: center;
+    margin-top: 50px;
+    font-family: serif;
+}
+
+.content-group__link a {
+    color: #fff;
+    background: #996600;
+    text-decoration: none;
+    padding: 10px 50px;
+}
+
+.background-text::before {
+    font-family: serif;
+    content: "Thank you";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size:15vw;
+    color: rgba(0, 0, 0, 0.1);
+    /* 薄さ（0.1〜0.2 が自然） */
+    white-space: nowrap;
+    pointer-events: none;
+    /* クリックを邪魔しない */
+}
